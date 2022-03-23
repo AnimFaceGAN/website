@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, useRoutes} from 'react-router-dom';
+import './App.css'
+import Home from './Home';
+import About from './About';
+import News from './News';
+import Download from './Download';
+import Policy from './Policy';
+import License from './License';
+
+const Route = () => {
+  let routes = useRoutes([
+    { path: '/',        element: <Home /> },
+    { path: 'about',    element: <About /> },
+    { path: 'news',     element: <News /> },
+    { path: 'download', element: <Download /> },
+    { path: 'policy',   element: <Policy /> },
+    { path: 'license',  element: <License /> },
+  ]);
+  return routes;
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div class="sidebar">
+        <div class="header">Ganimation</div>
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/download">Download</a></li>
+          <li><a href="/policy">Policy</a></li>
+          <li><a href="/license">License</a></li>
+        </ul>
+      </div>
+
+      <div class="main-part">
+        <BrowserRouter>
+          <Route />
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
