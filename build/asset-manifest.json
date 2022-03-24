@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AnimFaceGAN/website/static/css/main.9268de40.css",
-    "main.js": "/AnimFaceGAN/website/static/js/main.b5964096.js",
-    "static/media/feature1.webm": "/AnimFaceGAN/website/static/media/feature1.220bee743ab312c1632f.webm",
-    "static/media/feature1.mp4": "/AnimFaceGAN/website/static/media/feature1.9ac7b3b12b6811e0e8d9.mp4",
-    "static/media/feature3.png": "/AnimFaceGAN/website/static/media/feature3.2504a3b9c30f5b8f523e.png",
-    "static/media/feature2.png": "/AnimFaceGAN/website/static/media/feature2.7bbc475aff2923655486.png",
-    "index.html": "/AnimFaceGAN/website/index.html",
-    "main.9268de40.css.map": "/AnimFaceGAN/website/static/css/main.9268de40.css.map",
-    "main.b5964096.js.map": "/AnimFaceGAN/website/static/js/main.b5964096.js.map"
+    "main.css": "/website/static/css/main.9268de40.css",
+    "main.js": "/website/static/js/main.b9dc3eae.js",
+    "static/media/feature1.webm": "/website/static/media/feature1.220bee743ab312c1632f.webm",
+    "static/media/feature1.mp4": "/website/static/media/feature1.9ac7b3b12b6811e0e8d9.mp4",
+    "static/media/feature3.png": "/website/static/media/feature3.2504a3b9c30f5b8f523e.png",
+    "static/media/feature2.png": "/website/static/media/feature2.7bbc475aff2923655486.png",
+    "index.html": "/website/index.html",
+    "main.9268de40.css.map": "/website/static/css/main.9268de40.css.map",
+    "main.b9dc3eae.js.map": "/website/static/js/main.b9dc3eae.js.map"
   },
   "entrypoints": [
     "static/css/main.9268de40.css",
-    "static/js/main.b5964096.js"
+    "static/js/main.b9dc3eae.js"
   ]
 }

@@ -25,12 +25,12 @@ function App() {
       <div class="sidebar">
         <div class="header">Ganimation</div>
         <ul class="nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/news">News</a></li>
-          <li><a href="/download">Download</a></li>
-          <li><a href="/policy">Policy</a></li>
-          <li><a href="/license">License</a></li>
+          <li><a href="/website">Home</a></li>
+          <li><a href="/website/about">About</a></li>
+          <li><a href="/website/news">News</a></li>
+          <li><a href="/website/download">Download</a></li>
+          <li><a href="/website/policy">Policy</a></li>
+          <li><a href="/website/license">License</a></li>
         </ul>
       </div>
 
