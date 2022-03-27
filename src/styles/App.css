@@ -1,8 +1,3 @@
-* {
-  background-color: rgb(34, 34, 34);
-  color: aliceblue;
-}
-
 .sidebar {
   float: left;
   width: 250px;
@@ -14,6 +9,9 @@
   color: aliceblue;
   text-align: center;
   line-height: 70px;
+}
+.logo {
+  width: 90%;
 }
 .nav {
   margin: 0;
@@ -33,5 +31,6 @@
 }
 
 .main-part {
-  padding-left: 280px;
+  padding-left: 340px;
+  margin-right: 100px;
 }

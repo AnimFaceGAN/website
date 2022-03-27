@@ -1,0 +1,8 @@
+.feature-block .feature-img .img {
+    width: 50%;
+    height: 50%;
+  }
+
+.feature-block {
+   padding: 40px 0;
+  }
